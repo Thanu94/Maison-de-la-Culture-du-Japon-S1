@@ -1,0 +1,247 @@
+body{
+    background-image:url(../img/fond.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.menu{
+	background-color: rgb(250, 186, 186);
+}
+.titre {
+    padding-bottom: 10px;
+    display:flex;
+    font-weight: bold;
+    
+}
+.logo{
+    padding-left: 10px;
+    max-width: 25%;
+	width : 15%;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.video{
+  margin-left: 500px;
+
+}
+
+.icon{
+    text-align: right;
+    
+    color: rgb(0, 0, 0);
+}
+.icon i{
+    margin: 10px;
+       
+}
+
+.sous_menu{
+	background-color : #FB9D9D;
+}
+
+li{
+    list-style-type: none;
+}
+.h2{
+  padding-left: 550px;
+}
+nav>ul>li:hover .sousmenu{
+    display: block;
+    }
+nav>ul>li{
+        display: inline-block;
+        position: relative
+    }
+
+.tra li{
+        padding-left:80px;    
+    }
+.container{
+    padding-top: 15px;
+    padding-left: 5px;
+    max-width: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+
+}
+.container article{
+    display: inline-block;
+}
+
+
+
+
+footer{
+        background-color: rgb(206, 89, 171);
+        
+        
+    }  
+
+footer article
+    { 
+        padding-left: 100px;
+        padding-right: 110px;
+        padding-bottom: 20px;
+        text-align: left;
+        display: inline-block;
+        vertical-align: top;
+        color: rgb(0, 0, 0);
+        
+    }
+
+.video{
+	transform: translate(-10%, -10%);
+}
+
+
+.slide{
+  padding-right: 575px;
+    padding-left:20% ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.slide .button{
+    padding-left: 350px;
+    
+}
+button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  
+}
+.mySlides {
+    display:none;
+    padding-bottom: 10px;
+}
+.all-card{
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card a:hover{
+  color: red;
+}
+.container {
+  padding: 2px 16px;
+}
+
+
+.japan_expo a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+/* NAVBAR */
+header {
+  background: rgb(250, 186, 186);
+  height: 170px;
+}
+
+header * {
+  color: black;
+}
+
+header .logo {
+  float: left;
+  height: inherit;
+  margin-left: 2em;
+}
+
+header .logo-text {
+  margin: 9px;
+  font-family: 'Candal', serif;
+}
+
+header .logo-text span {
+  color: #05f7ff;
+}
+
+header ul {
+  float: center-right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  position: relative;
+}
+
+header ul li ul {
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  width: 180px;
+  display: none;
+  z-index: 88888;
+}
+
+header ul li:hover ul {
+  display: block;
+}
+
+header ul li ul li {
+  width: 100%;
+}
+
+header ul li ul li a {
+  padding: 10px;
+  background: white;
+  color: #444;
+}
+
+header ul li ul li a.logout {
+  color: red;
+}
+
+header ul li ul li a:hover {
+  background: red;
+}
+
+header ul li a {
+  display: block;
+  padding: 21px;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  background: red;
+  transition: 0.5s;
+}
+
+header .menu-toggle {
+  display: none;
+}
+
+.page-wrapper {
+  min-height: 100%;
+}
+
+.page-wrapper a:hover {
+  color: #006669;
+}
+

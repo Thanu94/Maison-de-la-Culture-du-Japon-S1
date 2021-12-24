@@ -1,0 +1,239 @@
+body{
+    background-image:url(../img/fond.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.menu{
+	background-color: rgb(250, 186, 186);
+}
+.titre {
+    padding-bottom: 10px;
+    display:flex;
+    font-weight: bold;
+    
+}
+.logo{
+    padding-left: 10px;
+    max-width: 25%;
+	width : 15%;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.icon{
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+.icon i{
+    margin: 10px;
+    
+    
+}
+
+.sousmenu{
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: rgb(250, 186, 186);
+    width: 200px;
+    
+}
+
+.sous_menu{
+	background-color : #FB9D9D;
+}
+
+li{
+    list-style-type: none;
+}
+nav>ul>li:hover .sousmenu{
+    display: block;
+    }
+nav>ul>li{
+        display: inline-block;
+        position: relative
+    }
+
+.tra li{
+        padding-left:80px;    
+    }
+.container-big{
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 1470px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    background-color: rgb(206, 89, 171);
+
+}
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+ .signupbtn {
+  margin-left: 350px;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header {
+  background: rgb(250, 186, 186);
+  height: 170px;
+}
+
+header * {
+  color: black;
+}
+
+header .logo {
+  float: left;
+  height: inherit;
+  margin-left: 2em;
+}
+
+header .logo-text {
+  margin: 9px;
+  font-family: 'Candal', serif;
+}
+
+header .logo-text span {
+  color: #05f7ff;
+}
+
+header ul {
+  float: center-right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  position: relative;
+}
+
+header ul li ul {
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  width: 180px;
+  display: none;
+  z-index: 88888;
+}
+
+header ul li:hover ul {
+  display: block;
+}
+
+header ul li ul li {
+  width: 100%;
+}
+
+header ul li ul li a {
+  padding: 10px;
+  background: white;
+  color: #444;
+}
+
+header ul li ul li a.logout {
+  color: red;
+}
+
+header ul li ul li a:hover {
+  background: red;
+}
+
+header ul li a {
+  display: block;
+  padding: 21px;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  background: red;
+  transition: 0.5s;
+}
+
+header .menu-toggle {
+  display: none;
+}
+
+.page-wrapper {
+  min-height: 100%;
+}
+
+.page-wrapper a:hover {
+  color: #006669;
+}
+
+

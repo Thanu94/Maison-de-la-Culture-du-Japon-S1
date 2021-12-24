@@ -1,0 +1,290 @@
+body{
+    background-image:url(../img/fond.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.menu{
+    background-color: rgb(250, 186, 186);
+    margin-bottom: 50px;
+}
+
+.titre {
+    padding-bottom: 10px;
+    display:flex;
+    font-weight: bold;
+    
+}
+
+.logo{
+    padding-left: 10px;
+    max-width: 25%;
+	width : 15%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.slide{
+    padding-left:30% ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+.icon i{
+    margin: 10px;
+    
+    
+}
+
+.sousmenu{
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: rgb(250, 186, 186);
+    width: 120px;
+} 
+
+.sous_menu{
+	background-color : #FB9D9D;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav>ul>li:hover .sousmenu{
+    display: block;
+    justify-content: flex-start;
+}
+	
+nav>ul>li{
+        display: inline;
+        position: relative
+}
+
+.tra li{
+        padding-left: 20px;
+		margin-right: 25px;
+		
+		
+}
+.colone{
+  display: flex;
+}
+article{
+  padding-left: 20px;
+}
+.espace{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.espace2{
+  padding-right: 40%;
+  padding-left: 10%;
+}
+.espace1{
+  padding-right: 10%;
+  padding-left: 40%;
+}
+.imspace {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container{
+    padding-top: 5px;
+    padding-left: 5px;
+    max-width: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+}
+
+.container article{
+    display: inline-block;
+}
+
+.lecture{
+    padding-left: 750px;
+}
+
+
+footer{
+        background-color: rgb(206, 89, 171);
+}  
+
+footer article{ 
+        padding-left: 100px;
+        padding-right: 110px;
+        padding-bottom: 20px;
+        text-align: left;
+        display: inline-block;
+        vertical-align: top;
+        color: rgb(0, 0, 0);
+}
+
+h1{
+	text-decoration: underline;
+	padding-top: 5px;
+    border-radius: 3%;
+}
+	
+.paraph{
+	padding-top: 5px;
+    padding-left: 5px;
+    max-width: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+	color : black;
+	font: italic 1.2em "Fira Sans", serif;
+}
+
+.art{
+	text-underline-position: auto;
+    max-width: 1770px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+	margin-top : 25px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 3%;
+}
+
+.karate{
+	margin-left : 100px;
+}
+.kick-boxing{
+	margin-left : 100px;
+}
+.ninjutsu{
+	margin-left : 100px;
+}
+.ju-jitsu{
+	margin-left : 100px;
+}
+.bo-jutsu{
+	margin-left : 100px;
+}
+.aikido{
+	margin-left : 100px;
+}
+.kendo{
+	margin-left : 100px;
+}
+.judo{
+	margin-left : 100px;
+}
+.sumo{
+	margin-left : 600px;
+}
+
+header {
+  background: rgb(250, 186, 186);
+  height: 170px;
+}
+
+header * {
+  color: black;
+}
+
+header .logo {
+  float: left;
+  height: inherit;
+  margin-left: 2em;
+}
+
+header .logo-text {
+  margin: 9px;
+  font-family: 'Candal', serif;
+}
+
+header .logo-text span {
+  color: #05f7ff;
+}
+
+header ul {
+  float: center-right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  position: relative;
+}
+
+header ul li ul {
+  position: absolute;
+  top: 66px;
+  right: 0px;
+  width: 180px;
+  display: none;
+  z-index: 88888;
+}
+
+header ul li:hover ul {
+  display: block;
+}
+
+header ul li ul li {
+  width: 100%;
+}
+
+header ul li ul li a {
+  padding: 10px;
+  background: white;
+  color: #444;
+}
+
+header ul li ul li a.logout {
+  color: red;
+}
+
+header ul li ul li a:hover {
+  background: red;
+}
+
+header ul li a {
+  display: block;
+  padding: 21px;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  background: red;
+  transition: 0.5s;
+}
+
+header .menu-toggle {
+  display: none;
+}
+
+.page-wrapper {
+  min-height: 100%;
+}
+
+.page-wrapper a:hover {
+  color: #006669;
+}
+
