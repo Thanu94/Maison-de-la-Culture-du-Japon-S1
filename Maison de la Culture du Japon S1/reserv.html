@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation/Billeterie</title>
+    <link rel="icon" type="image/pgn" href="img/pote.jpg">
+    <link href="css/reserv.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <header>
+    <a href="accueil.html"><img class="logo" src="img/logo.jpg" alt="logo"></a>
+
+<nav class="icon">
+        <a href="connexion.html"><i class="fa fa-user" > Connexion</i></a>
+        <a href="inscription.html"><i class="fa fa-wpforms"> Inscription</i></a>
+</nav>
+<nav class="titre">
+<div class="logo">
+
+</div>
+<i class="fa fa-bars menu-toggle"></i>
+<ul class="nav">
+<li>
+<a href="#">
+  Culture japonaise
+  <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+</a>
+<ul>
+  <li><a class="sous_menu" href="manga.html">Les mangas</a></li>
+<li><a class="sous_menu" href="jeux_video.html">Jeux vidéos</a></li>
+  <li><a class="sous_menu" href="nourritures.html">Gastronomie</a></li>
+</ul>
+</li>
+<li><a href="art_martiaux.html">Arts martiaux/Sports de combats</a></li>
+
+<li><a href="reserv.html">Réservation</a></li>
+<li><a href="forum.html">Forum</a></li>
+</header>
+
+           
+            <div class="row">
+              
+                <div class="container">
+                    <h2>Reservez vos billets</h2>
+                    <p>Remplissez le formulaire en selectionant vos billets</p>
+                  <form >
+                  
+                    <div class="row">
+                      <div class="col-50">
+                        <h3>Adresse de facturation</h3>
+                        <label for="fname"><i class="fa fa-user"></i> Nom complet</label>
+                        <input type="text" id="fname" name="firstname" placeholder="R. Martinez">
+                        <label for="email"><i class="fa fa-envelope"></i> Adresse mail</label>
+                        <input type="text" id="email" name="email" placeholder="martinez@example.com">
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Adresse</label>
+                        <input type="text" id="adr" name="address" placeholder="2 Rue des Martinez">
+                        <label for="city"><i class="fa fa-institution"></i> Ville</label>
+                        <input type="text" id="city" name="city" placeholder="Paris">
+            
+                        
+                      </div>
+            
+                      <div class="col-50">
+                        <h3>Choix</h3>
+                        <select type="text" id="Choix" name="choix">
+                        <option value="japan-expo">japan-expo</option>
+                        <option value="festival des art_martiaux">Festival des Arts-Martiaux</option>
+                        <option value="exposition de la culure">Exposition de la Culure</option>
+                        <option value="rencontre avec les auteurs,réalisateur">Rencontre avec les Auteurs, Réalisateurs</option>
+                        </select>
+                        <h3>Paiment</h3>
+                        <label for="cname">Titulaire de la carte</label>
+                        <input type="text" id="cname" name="cardname" placeholder="Ricardo Martinez">
+                        <label for="ccnum">Numéro de carte</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-XXXX">
+                        <label for="expmonth">Mois d'expiration</label>
+                        <input type="text" id="expmonth" name="expmonth" placeholder="Septembre">
+                        <div class="row">
+                          <div class="col-50">
+                            <label for="expyear">Année d'expiration</label>
+                            <input type="text" id="expyear" name="expyear" placeholder="2018">
+                          </div>
+                          <div class="col-50">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="352">
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <label>
+                      <input type="checkbox" checked="checked" name="sameadr"> Adresse de livraison identique à celle de facturation
+                    </label>
+                    <input type="submit" value="Valider le paiment" class="btn">
+                  </form>
+                </div>
+              </div>
+             
+            
+            
+              <footer>
+                <div class="fin">
+                    <article>
+                        <h2>La Maison de Culture Japonaise</h2>
+                        <p>Venez découvrir la culture du Japon dans toute sa splandeur!!<br>
+                            Tous vos mangas,animes préférés sont ici.<br>
+                            Des billets pour la Japan Expo <br> <a href="https://www.japan-expo-paris.com/fr/ticketing/SOUTIEN">disponibles ICI dès maintenant !</a>
+                        </p>
+                    </article>
+                    <article>
+                        <h4>A propos de nous</h4>
+                        <li><a href="easter_egg.html">Qui sommes-nous ?</a></li>
+                        <li><a href="https://www.mcjp.fr/fr/chez-nos-partenaires">Partenariats</a></li>
+                        <li><a href="https://www.mcjp.fr/fr/la-mcjp/la-mcjp-recrute-une-chargee-des-etudes-japonaises-et-des-echanges-intellectuels-cdd	">Emplois</a></li>
+                    </article>
+                    <article>
+                        <h4>Aide</h4>
+                        <li><a href="+dgg">Nos Blogs</a></li>
+                        <li><a href="+dgg">Assistance</a></li>
+                        <li><a href="+dgg">Exemples</a></li>
+                        <li><a href="https://www.mcjp.fr/fr/contact">Contacts</a></li>
+                        <li><a href="+dgg">FAQ</a></li>
+                    </article>
+                    <article>
+                        <h4>Nos réseaux sociaux</h4>
+                            <a href="https://twitter.com/japanstoryfr?lang=fr"><i class="fa fa-2x fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/MCJP.officiel/"><i class="fa fa-2x fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/mcjp_officiel/?hl=fr"><i class="fa fa-2x fa-instagram"></i></a>
+                            <a href="https://www.pinterest.fr/mcjpofficiel/"><i class="fa fa-2x fa-pinterest"></i></a>
+                            <a href="https://www.youtube.com/channel/UC6tThdaeY951YFJC_UDwRRQ"><i class="fa fa-2x fa-youtube"></i></a>
+                    </article>
+                    <article>
+                        <a href="https://www.mcjp.fr/fr/mentions-legales">Mentions<br> légales</a>
+                        </article>
+                        <article>
+                        <a href="https://www.mcjp.fr/fr/politique-de-confidentialite">Politique de<br> confidentialité</a>
+                        </article>
+                        <article>
+                        <a href="+dgg">Conditions et formulaire<br> de révocation</a>
+                        </article>
+                        <article>
+                        <a href="+dgg">Conditions<br> d'utilisations</a>
+                        </article>  
+                        <article>
+                        <a href="+dgg">Gestion<br> des cookies</a>
+                        </article>
+                
+                </div>
+                       
+                
+                </footer>
+		</body>
+	</html>
+		

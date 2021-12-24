@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="icon" type="image/pgn" href="img/pote.jpg">
+    <link href="css/inscription.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <header>
+    <a href="accueil.html"><img class="logo" src="img/logo.jpg" alt="logo"></a>
+
+<nav class="icon">
+        <a href="connexion.html"><i class="fa fa-user" > Connexion</i></a>
+        <a href="inscription.html"><i class="fa fa-wpforms"> Inscription</i></a>
+</nav>
+<nav class="titre">
+<div class="logo">
+
+</div>
+<i class="fa fa-bars menu-toggle"></i>
+<ul class="nav">
+<li>
+<a href="#">
+  Culture japonaise
+  <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+</a>
+<ul>
+  <li><a class="sous_menu" href="manga.html">Les mangas</a></li>
+<li><a class="sous_menu" href="jeux_video.html">Jeux vidéos</a></li>
+  <li><a class="sous_menu" href="nourritures.html">Gastronomie</a></li>
+</ul>
+</li>
+<li><a href="art_martiaux.html">Arts martiaux/Sports de combats</a></li>
+
+<li><a href="reserv.html">Réservation</a></li>
+<li><a href="forum.html">Forum</a></li>
+</header>
+
+    <main class="container-big">
+        
+        <form action="/action_page.php" >
+            <div class="container">
+              <h1>Inscription</h1>
+              <p>Créer votre compte</p>
+              
+              <label for="Name"><b>Nom</b></label>
+              <input type="text" placeholder="Entrez votre nom" name="name" required>
+
+              <label for="first-Name"><b>Prénom</b></label>
+              <input type="text" placeholder="Entrez votre prénom" name="first-name" required>
+
+              <label for="email"><b>Adresse mail</b></label>
+              <input type="text" placeholder="Entrez votre E-mail" name="email" required>
+          
+              <label for="psw"><b>Mot de passe</b></label>
+              <input type="password" placeholder="Entrez votre mot de passe" name="psw" required>
+                
+              <label for="psw-repeat"><b>Ressaisissez votre mot de passe</b></label>
+             <input type="password" placeholder="Ressaisissez votre mots de passe" name="psw-repeat" required>    
+              
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Se rappeler de moi
+              </label>
+              
+              <p>Vous avez déjà un compte ? <a href="connexion.html" style="color:rgb(2, 112, 155)">Connexion</a>.</p>
+          
+              <div class="clearfix">
+                <button type="submit" class="signupbtn">Connexion</button>
+              </div>
+            </div>
+          </form>
+
+    </main>
+
+</body>
+
+</html>
